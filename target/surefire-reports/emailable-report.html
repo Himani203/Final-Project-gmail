@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">Surefire suite</th></tr><tr><td><a href="#t0">Surefire test</a></td><td class="num">0</td><td class="num attn">9</td><td class="num">0</td><td class="num">1,430</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Surefire suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Surefire test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.testing.Test1</td><td><a href="#m0">beforeTest</a></td><td rowspan="1">1708733078544</td><td rowspan="1">0</td></tr><tr><th colspan="4">Surefire test &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.testing.Test1</td><td><a href="#m1">afterMethod</a></td><td rowspan="1">1708733079973</td><td rowspan="1">0</td></tr><tr><th colspan="4">Surefire test &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="9">com.testing.Test1</td><td><a href="#m2">CountEmail</a></td><td rowspan="1">1708733079971</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">GmailLogin</a></td><td rowspan="1">1708733079971</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">InvalidUser</a></td><td rowspan="1">1708733079970</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">MoveBackToInbox</a></td><td rowspan="1">1708733079972</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m6">TotalInboxEmail</a></td><td rowspan="1">1708733079972</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m7">invalidPwd</a></td><td rowspan="1">1708733079971</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m8">markAsUnread</a></td><td rowspan="1">1708733079973</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m9">markAsread</a></td><td rowspan="1">1708733079973</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m10">moveToTrash</a></td><td rowspan="1">1708733079972</td><td rowspan="1">0</td></tr></tbody></table><h2>Surefire test</h2><h3 id="m0">com.testing.Test1#beforeTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 122.0.6261.69 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.9.0&apos;, revision: &apos;698b3178f0&apos;, time: &apos;2018-02-05T14:26:55.441Z&apos;
+System info: host: &apos;HUS&apos;, ip: &apos;192.168.0.4&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF6BD664D02+56194]
+	(No symbol) [0x00007FF6BD5D04B2]
+	(No symbol) [0x00007FF6BD4776AA]
+	(No symbol) [0x00007FF6BD4B1652]
+	(No symbol) [0x00007FF6BD4B094D]
+	(No symbol) [0x00007FF6BD4AB84F]
+	(No symbol) [0x00007FF6BD4A7DC2]
+	(No symbol) [0x00007FF6BD4F0954]
+	(No symbol) [0x00007FF6BD4E5C23]
+	(No symbol) [0x00007FF6BD4B4A45]
+	(No symbol) [0x00007FF6BD4B5AD4]
+	GetHandleVerifier [0x00007FF6BD9DD5BB+3695675]
+	GetHandleVerifier [0x00007FF6BDA36197+4059159]
+	GetHandleVerifier [0x00007FF6BDA2DF63+4025827]
+	GetHandleVerifier [0x00007FF6BD6FF029+687785]
+	(No symbol) [0x00007FF6BD5DB508]
+	(No symbol) [0x00007FF6BD5D7564]
+	(No symbol) [0x00007FF6BD5D76E9]
+	(No symbol) [0x00007FF6BD5C8094]
+	BaseThreadInitThunk [0x00007FFD27C6257D+29]
+	RtlUserThreadStart [0x00007FFD2906AA58+40]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$new$0(W3CHandshakeResponse.java:57)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$getResponseFunction$2(W3CHandshakeResponse.java:104)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:123)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:138)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:219)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:142)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:184)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:171)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:124)
+	at com.testing.PageFile.openBrowser(PageFile.java:24)
+	at com.testing.Test1.beforeTest(Test1.java:12)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.testing.Test1#afterMethod</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.testing.Test1#CountEmail</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.testing.Test1#GmailLogin</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m4">com.testing.Test1#InvalidUser</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.testing.Test1#MoveBackToInbox</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.testing.Test1#TotalInboxEmail</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.testing.Test1#invalidPwd</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.testing.Test1#markAsUnread</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m9">com.testing.Test1#markAsread</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m10">com.testing.Test1#moveToTrash</h3><table class="result"></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

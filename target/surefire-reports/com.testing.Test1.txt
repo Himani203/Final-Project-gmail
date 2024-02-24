@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: com.testing.Test1
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 10, Time elapsed: 1.764 s <<< FAILURE! - in com.testing.Test1
+beforeTest(com.testing.Test1)  Time elapsed: 1.636 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 120
+Current browser version is 122.0.6261.69 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.9.0', revision: '698b3178f0', time: '2018-02-05T14:26:55.441Z'
+System info: host: 'HUS', ip: '192.168.0.4', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 	GetHandleVerifier [0x00007FF6BD664D02+56194]
+	(No symbol) [0x00007FF6BD5D04B2]
+	(No symbol) [0x00007FF6BD4776AA]
+	(No symbol) [0x00007FF6BD4B1652]
+	(No symbol) [0x00007FF6BD4B094D]
+	(No symbol) [0x00007FF6BD4AB84F]
+	(No symbol) [0x00007FF6BD4A7DC2]
+	(No symbol) [0x00007FF6BD4F0954]
+	(No symbol) [0x00007FF6BD4E5C23]
+	(No symbol) [0x00007FF6BD4B4A45]
+	(No symbol) [0x00007FF6BD4B5AD4]
+	GetHandleVerifier [0x00007FF6BD9DD5BB+3695675]
+	GetHandleVerifier [0x00007FF6BDA36197+4059159]
+	GetHandleVerifier [0x00007FF6BDA2DF63+4025827]
+	GetHandleVerifier [0x00007FF6BD6FF029+687785]
+	(No symbol) [0x00007FF6BD5DB508]
+	(No symbol) [0x00007FF6BD5D7564]
+	(No symbol) [0x00007FF6BD5D76E9]
+	(No symbol) [0x00007FF6BD5C8094]
+	BaseThreadInitThunk [0x00007FFD27C6257D+29]
+	RtlUserThreadStart [0x00007FFD2906AA58+40]
+
+	at com.testing.Test1.beforeTest(Test1.java:12)
+
